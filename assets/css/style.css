@@ -1,0 +1,60 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap");
+
+/* General Styles */
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+/* Wrapper Styles */
+.wrap {
+  background: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Table Styles */
+.wp-list-table {
+  border-radius: 8px;
+  overflow: hidden;
+  border-collapse: separate;
+  border-spacing: 0;
+  width: 100%;
+  border: 1px solid #ddd;
+}
+
+.wp-list-table th {
+  /* Uncomment and set background color if needed */
+  /* background: #0073aa; */
+  color: white;
+  text-align: left;
+  padding: 12px;
+  font-weight: 700;
+}
+
+.wp-list-table td {
+  padding: 10px;
+  vertical-align: top;
+  border-bottom: 1px solid #ddd;
+  word-break: break-word;
+}
+
+/* Entry Data Styles */
+.entry-data strong {
+  color: #000;
+}
+
+/* Search Box Styles */
+.search-box {
+  margin-bottom: 15px;
+}
+
+.search-box input[type="text"] {
+  padding: 8px;
+  width: 300px;
+}
+
+/* Action Form Styles */
+.action-form form {
+  margin-bottom: 10px;
+}
