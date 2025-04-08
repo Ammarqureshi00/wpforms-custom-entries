@@ -199,5 +199,3 @@ function wpce_export_csv()
       exit;
 }
 add_action('admin_post_wpce_export_csv', 'wpce_export_csv');
-
-add_action('admin_post_wpce_export_csv', 'wpce_export_csv');
